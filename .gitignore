@@ -3,3 +3,8 @@ mlflow_data/
 mlflow_artifacts/
 *.pyc
 __pycache__/
+.idea
+# Ignore system files
+.DS_Store
+Thumbs.db
+
