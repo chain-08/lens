@@ -8,5 +8,4 @@ RUN pip install --no-cache-dir \
     lightgbm==4.6.0 \
     tensorflow==2.19.0 \
     mlflow==2.22.0 \
-    streamlit==1.35.0 \
     clickhouse-connect==0.7.7
