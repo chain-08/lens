@@ -28,6 +28,7 @@ class TSXMaxReturnPredictor:
         df = self.client.query_df(f"""
             SELECT *
             FROM {table_name}
+            WHERE exchange = 'NSE'
         """)
         print(f"✅ Data fetched: {df.shape[0]} rows, {df['date'].min()} to {df['date'].max()}")
         return df
